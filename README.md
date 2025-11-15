@@ -93,5 +93,3 @@ git clone https://github.com/Yash-coder53/OSINT.git
 cd OSINT
 chmod +x setup.sh
 ./setup.sh
-# Clone and setup
-git clone https://github.com/yourusername/termux-osint
