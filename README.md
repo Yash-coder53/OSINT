@@ -63,8 +63,8 @@ pkg update && pkg upgrade
 pkg install python git
 
 # Clone repository
-git clone https://github.com/yourusername/termux-osint-tool.git
-cd termux-osint-tool
+git clone https://github.com/Yash-coder53/OSINT.git
+cd OSINT
 
 # Run setup script
 chmod +x setup.sh
@@ -75,8 +75,8 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip python3-venv git -y
 
 # Clone repository
-git clone https://github.com/yourusername/termux-osint-tool.git
-cd termux-osint-tool
+git clone https://github.com/Yash-coder53/OSINT.git
+cd OSINT
 
 # Run setup
 chmod +x setup.sh
@@ -89,33 +89,9 @@ sudo dnf update && sudo dnf install python3 python3-pip git -y
 sudo pacman -Syu python python-pip git
 
 # Then clone and setup
-git clone https://github.com/yourusername/termux-osint-tool.git
-cd termux-osint-tool
+git clone https://github.com/Yash-coder53/OSINT.git
+cd OSINT
 chmod +x setup.sh
 ./setup.sh
-
-# Install WSL2 and Ubuntu from Microsoft Store
-# Then follow Linux instructions above
-
-Native Windows
-# Install Python from https://python.org
-# Install Git from https://git-scm.com
-
-# Clone repository
-git clone https://github.com/yourusername/termux-osint-tool.git
-cd termux-osint-tool
-
-# Install Python dependencies
-pip install -r requirements.txt
-
-Using Chocolatey
-# Install Chocolatey first (as Administrator)
-Set-ExecutionPolicy Bypass -Scope Process -Force
-[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
-iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-
-# Install dependencies
-choco install python git -y
-
 # Clone and setup
 git clone https://github.com/yourusername/termux-osint
